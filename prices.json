@@ -1,0 +1,5 @@
+{
+  "_note": "USD per million tokens. Fill from your provider's current pricing page; 0 means 'not set'.",
+  "claude-haiku-5-5": {"input": 0, "output": 0},
+  "claude-sonnet-5-5": {"input": 0, "output": 0}
+}

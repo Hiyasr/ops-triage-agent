@@ -1,0 +1,16 @@
+[project]
+name = "opsagent"
+version = "0.1.0"
+description = "Tool-using incident triage agent with guardrails, tracing and a scripted failure-scenario eval"
+requires-python = ">=3.10"
+dependencies = ["anthropic", "pydantic>=2"]
+
+[project.optional-dependencies]
+ui = ["streamlit", "pandas"]
+dev = ["pytest"]
+
+[tool.setuptools]
+packages = ["opsagent"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
